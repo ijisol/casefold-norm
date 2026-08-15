@@ -1,0 +1,21 @@
+{
+  "name": "casefold-norm",
+  "version": "1.0.0",
+  "description": "Implements the Unicode canonical case fold normalization step",
+  "keywords": ["case-folding", "unicode"],
+  "repository": "https://github.com/ijisol/casefold-norm",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./casefold-norm.js",
+    "./mappings": "./mappings.js"
+  },
+  "bin": "./build.js",
+  "scripts": {
+    "benchmark": "node ./benchmark/index.js",
+    "build": "node ./build.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3"
+  }
+}

@@ -1,0 +1,31 @@
+# casefold-norm
+
+Implements the [Unicode canonical case fold normalization step](https://www.w3.org/TR/charmod-norm/#CanonicalFoldNormalizationStep) for JavaScript.
+
+## Install
+
+Install from the [npm registry](https://www.npmjs.com/package/casefold-norm):
+
+``` shell
+npm i casefold-norm
+```
+
+Or, download [casefold-norm.js](https://github.com/ijisol/casefold-norm/blob/latest/casefold-norm.js) and [mappings.js](https://github.com/ijisol/casefold-norm/blob/latest/mappings.js) directly.
+
+## Usage
+
+``` javascript
+import { canonicalCasefoldNormalize } from 'casefold-norm';
+import caseFolding from 'casefold-norm/mappings';
+
+const seen = new Set().add(canonicalCasefoldNormalize('όσος', caseFolding));
+seen.has(canonicalCasefoldNormalize('ΌΣΟΣ', caseFolding)); // true
+```
+
+Details are in the [JSDoc comments](index.js).
+
+To generate the mappings for `canonicalCasefoldNormalize()` from the latest Unicode version, run the bundled CLI: [`npx casefold-norm`](build.js). Pass `--help` to see usage information.
+
+## License
+
+[MIT](LICENSE)
