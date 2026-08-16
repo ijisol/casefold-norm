@@ -1,6 +1,6 @@
 {
   "name": "casefold-norm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Implements the Unicode canonical case fold normalization step",
   "keywords": ["case-folding", "unicode"],
   "repository": "https://github.com/ijisol/casefold-norm",
