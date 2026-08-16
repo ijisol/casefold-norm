@@ -22,7 +22,7 @@ const seen = new Set().add(canonicalCasefoldNormalize('όσος', caseFolding));
 seen.has(canonicalCasefoldNormalize('ΌΣΟΣ', caseFolding)); // true
 ```
 
-Details are in the [JSDoc comments](index.js).
+Details are in the [JSDoc comments](casefold-norm.js).
 
 To generate the mappings for `canonicalCasefoldNormalize()` from the latest Unicode version, run the bundled CLI: [`npx casefold-norm`](build.js). Pass `--help` to see usage information.
 
