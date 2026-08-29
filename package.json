@@ -5,6 +5,7 @@
   "keywords": ["case-folding", "unicode"],
   "repository": "https://github.com/ijisol/casefold-norm",
   "license": "MIT",
+  "author": "Lee Jisol <ijisol@naver.com>",
   "type": "module",
   "exports": {
     ".": "./casefold-norm.js",

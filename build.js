@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-// Copyright 2026 Lee Jisol <ijisol@naver.com>
+// Copyright (c) 2026 Lee Jisol <ijisol@naver.com>
 // SPDX-License-Identifier: MIT
 
 import { writeFile } from 'node:fs/promises';
