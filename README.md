@@ -24,7 +24,7 @@ seen.has(canonicalCasefoldNormalize('ΌΣΟΣ', caseFolding)); // true
 
 Details are in the [JSDoc comments](casefold-norm.js).
 
-To generate the mappings for `canonicalCasefoldNormalize()` from the latest Unicode version, run the bundled CLI: [`npx casefold-norm`](build.js). Pass `--help` to see usage information.
+To generate the mappings for `canonicalCasefoldNormalize()` from the latest Unicode version, run the bundled CLI: [`npx casefold-norm`](build.js). The output path defaults to './mappings.js'; it can be specified with `-o` or `--output`.
 
 ## Copyright
 
