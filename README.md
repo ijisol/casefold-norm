@@ -26,8 +26,8 @@ Details are in the [JSDoc comments](casefold-norm.js).
 
 To generate the mappings for `canonicalCasefoldNormalize()` from the latest Unicode version, run the bundled CLI: [`npx casefold-norm`](build.js). The output path defaults to './mappings.js'; it can be specified with `-o` or `--output`.
 
-## Copyright
+## License
 
-Copyright (c) 2026 Lee Jisol \<ijisol@naver.com>
+Copyright (c) 2026 Lee Jisol <<ijisol@naver.com>>
 
 Licensed under the [MIT License](LICENSE).
